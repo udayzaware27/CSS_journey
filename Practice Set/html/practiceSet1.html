@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Practice Set Level 1</title>
+
+        <!-- external styling has LEAST PRIORITY -->
+        <link rel="stylesheet" href="../css/practiceSet1.css">
+
+        <style>
+            #heading {
+                color:blue;
+            }
+
+            /* internal styling has MIDDLE PRIORITY */
+            div {
+                color:orange;
+            }
+
+            #div_22{
+                color:red;
+            }
+            p {
+                color:green;
+            }
+            .special_style {
+                color:darkcyan;
+            }
+
+            #first, #second {
+                color:violet;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 style="color:red;">Practice Set 1</h1>
+        <hr><hr> 
+        
+        <!-- inline styling has HIGHEST PRIORITY -->
+        <div id="heading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem similique iusto consequatur laudantium error molestias magnam tenetur asperiores est velit.</div>
+        <hr><hr>
+        
+        <div id="div_22">DIV</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, natus!</p>
+        <h2 class="special_style">Heading</h2>
+        <hr><hr>
+
+        <div id="first"><big>Div1</big></div>
+        <div id="second"><big>Div2</big></div>
+    </body>
+</html>
