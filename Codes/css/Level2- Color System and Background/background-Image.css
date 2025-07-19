@@ -1,0 +1,8 @@
+#logo {
+    height:500px;
+    width:500px;
+    background-image:url("../../images/css.webp");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
