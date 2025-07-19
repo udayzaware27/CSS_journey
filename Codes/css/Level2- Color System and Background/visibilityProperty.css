@@ -1,0 +1,15 @@
+.box {
+    height: 50px;
+    width: 50px;
+}
+
+#box1 {
+    background-color:red;
+    visibility: hidden;
+    /* Box 1 will be hidden */
+}
+
+#box2 {
+    background-color: chartreuse;
+    visibility: visible;
+}
