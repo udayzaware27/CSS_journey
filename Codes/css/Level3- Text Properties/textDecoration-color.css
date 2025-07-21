@@ -1,0 +1,17 @@
+#text1 {
+    text-decoration:overline;
+    text-decoration-color:red;
+}
+
+#text2 {
+    color:rgb(233, 23, 219);
+    text-decoration:line-through;
+    text-decoration-style:dashed;
+    text-decoration-color:black;
+}
+
+#text3 {
+    text-decoration:underline;
+    text-decoration-style:double;
+    text-decoration-color:darkorange
+}
