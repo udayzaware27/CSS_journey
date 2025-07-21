@@ -1,0 +1,19 @@
+.text {
+    text-decoration:underline;
+}
+
+#text1 {
+    text-decoration-style:dashed;
+}
+#text2 {
+    text-decoration-style:double;
+}
+#text3 {
+    text-decoration-style:solid;
+}
+#text4 {
+    text-decoration-style:wavy;
+}
+#text5 {
+    text-decoration-style:dotted;
+}
