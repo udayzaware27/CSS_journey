@@ -1,0 +1,13 @@
+/* Font Weight size between 100 to 900 */
+
+#first {
+    font-weight:100;
+}
+
+#second {
+    font-weight:500;
+}
+
+#third {
+    font-weight:900;
+}
