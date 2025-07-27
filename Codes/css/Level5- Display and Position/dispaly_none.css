@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height:50px;
+    width:50px;
+    background-color:aquamarine;
+    margin:10px;
+    padding:5px;
+    border:3px solid black;
+}
+
+#box2 {
+    display:none;
+    /* It completely removes the element from the page layout */
+    /* It's not visible and it doesn't take up any space (as if it doesn't exist) */
+    /* useful for hiding elements dynamically (e.g., with JS or CSS conditions) */
+}
