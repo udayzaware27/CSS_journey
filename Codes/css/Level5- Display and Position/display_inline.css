@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height:70px;
+    width:70px;
+    background-color:khaki;
+    margin:10px;
+    text-align:center;
+    border:3px solid red;
+    border-radius:10px;
+}
+
+#box2 {
+    display:inline;
+}
+#box3 {
+    display:inline;
+}
+/* here <div> is a Block level element. But we changed it to Inline. now the Box2 & Box3 sit in a same line(i.e.Box3 doesn't start on new line */
+/* we cannot set height & width, thats why Box2 & Box3 only takes as much space as its content and Box1 remains same. */
