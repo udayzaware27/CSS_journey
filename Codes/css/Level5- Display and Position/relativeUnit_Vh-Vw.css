@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:beige
+}
+
+#first {
+    background-color:aquamarine;
+    height: 50vh;
+    width:50vw;
+    /* It take 50% height & Width of view page */
+}
