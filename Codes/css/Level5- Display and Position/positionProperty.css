@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    background-color:aquamarine;
+    height:70px;
+    width:70px;
+    margin:5px;
+    border:2px solid;
+    text-align:center;
+}
+#box1 {
+    position:static;
+}
+#box2 {
+    position:relative;
+    top:20px;
+    left:30px;
+}
+#box3 {
+    position:absolute;
+    top:150px;
+    right:100px;
+}
+#box4 {
+    position:fixed;
+    top:200px;
+    left:50px;
+    /* can't Scrollable*/
+}
