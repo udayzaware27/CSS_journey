@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#heading {
+    text-align:center;
+    margin:5px;
+}
+.heading {
+    margin:10px;
+    color:rgb(5, 92, 146);
+}
+.container {
+    height:400px;
+    width:480px;
+    border:3px solid;
+    margin:5px;
+    display:flex;
+    justify-content:center;
+    /* align flex items along main axis */
+}
+.box {
+    height:60px;
+    width:60px;
+    margin:6px;
+    border:2px solid black;
+    border-radius:10px;
+    background-color:indianred;
+    text-align:center;
+}
+
+#container1 {
+    align-items:start;
+}
+#container2 {
+    align-items:center;
+}
+#container3 {
+    align-items:end;
+}
+/* align flex items along the cross axis */
