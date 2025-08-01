@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#heading {
+    text-align:center;
+    margin:5px;
+}
+.heading {
+    margin:10px;
+    color:rgb(5, 92, 146);
+}
+.container {
+    height:350px;
+    width:480px;
+    border:3px solid;
+    margin:5px;
+    display:flex;
+}
+.box {
+    height:100px;
+    width:120px;
+    margin:6px;
+    border:2px solid black;
+    border-radius:10px;
+    background-color:indianred;
+    text-align:center;
+}
+
+#container1 {
+    flex-wrap:nowrap;
+}
+#container2 {
+    flex-wrap:wrap;
+}
+#container3 {
+    flex-wrap:wrap-reverse;
+}
