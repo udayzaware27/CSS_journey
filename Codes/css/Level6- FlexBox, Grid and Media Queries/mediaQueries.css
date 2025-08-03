@@ -1,0 +1,16 @@
+#box {
+    height:100px;
+    width:100px;
+    margin:20px;
+    padding:10px;
+    box-sizing:border-box;
+    text-align:center;
+    background-color:aquamarine;
+}
+
+/* to see results we need to open inspect and set screen size between 250 to 300 */
+@media screen and (max-width:300px) and (min-width:250px){
+    #box {
+        background-color:darkkhaki;
+    }
+}
