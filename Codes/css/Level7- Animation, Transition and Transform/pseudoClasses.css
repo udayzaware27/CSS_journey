@@ -1,0 +1,19 @@
+.pseudo {
+    margin:50px;
+    height:35px;
+    width:130px;
+    font-size:20px;
+    border:2px solid blue;
+    border-radius:10px;
+}
+
+.pseudo:hover {
+    height:45px;
+    width:140px;
+    border:2px solid red;
+}
+.pseudo:active {
+    height:45px;
+    width:140px;
+    background-color:indianred;
+}
