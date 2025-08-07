@@ -1,0 +1,22 @@
+.box {
+    height:100px;
+    width:100px;
+    margin:60px;
+    border:3px solid black;
+    border-radius:10px;
+    text-align:center;
+    font-size:20px;
+}
+#box1 {
+    background-color:aquamarine;
+    transform:rotate(60deg);
+}
+#box2 {
+    background-color: plum;
+    transform:rotate(-45deg);
+}
+#box3:hover {
+    background-color:bisque;
+    transition:all 2s ease-in;
+    transform:rotate(120deg);
+}
