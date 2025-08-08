@@ -20,3 +20,11 @@
     transition:all 2s ease-in;
     transform:rotate(120deg);
 }
+#box4 {
+    background-color:aqua;
+    transform:rotateX(70deg);
+}
+#box5 {
+    background-color:chartreuse;
+    transform:rotateY(180deg);
+}
