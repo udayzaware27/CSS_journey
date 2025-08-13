@@ -1,0 +1,30 @@
+.box {
+    height:100px;
+    width:100px;
+    margin:100px;
+    padding:5px;
+    box-sizing:border-box;
+    border:3px solid;
+    border-radius:10px;
+    text-align:center;
+    font-size:18px;
+}
+
+#box1 {
+    background-color:aqua;
+    transform:scale(2);
+}
+#box2:hover {
+    margin:250px;
+    background-color:cadetblue;
+    transition:all 2s ease-in-out 0s;
+    transform:scale(4);
+}
+#box3 {
+    background-color:bisque;
+    transform:scaleX(2);
+}
+#box4 {
+    background-color:brown;
+    transform:scaleY(2);
+}
