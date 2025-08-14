@@ -1,0 +1,25 @@
+.box {
+    height:100px;
+    width:100px;
+    margin:50px;
+    padding:5px;
+    box-sizing:border-box;
+    border:3px solid;
+    border-radius:10px;
+    text-align:center;
+    font-size:18px;
+    transition:all 2s ease-in-out 0s;
+}
+
+#box1:hover {
+    background-color:aqua;
+    transform:skew(40deg, 40deg);
+}
+#box2:hover {
+    background-color:cadetblue;
+    transform:skewX(80deg);
+}
+#box3 {
+    background-color:bisque;
+    transform:skewY(45deg);
+}
